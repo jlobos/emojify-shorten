@@ -1,0 +1,31 @@
+{
+  "name": "emojify-shorten",
+  "version": "1.0.0",
+  "description": "Shorten your links with emoji",
+  "license": "MIT",
+  "repository": "jlobos/emojify-shorten",
+  "author": "Jesus Lobos <jlobitu@gmail.com> (https://jlobos.com/)",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "standard && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "shorten",
+    "links",
+    "emoji",
+    "emojify"
+  ],
+  "dependencies": {
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "standard": "^10.0.2"
+  }
+}
